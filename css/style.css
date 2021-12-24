@@ -62,6 +62,29 @@ body {
    padding: 0 15px;
 }
 
+.page-section {
+   margin: 200px 0;
+}
+
+.title {
+   font-family: 'balqis';
+   font-size: 96px;
+   line-height: 128px;
+   color: #E2AB3F;
+   font-weight: 300;
+   margin-bottom: 100px;
+}
+
+.title span {
+   font-family: 'RobotoCondensed-LightItalic';
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+   display: block;
+   margin-top: -30px;
+   margin-left: 185px;
+}
+
 .header__top {
    display: flex;
    justify-content: space-between;
@@ -115,3 +138,27 @@ body {
    margin-top: -66px;
    margin-right: 85px;
 }
+
+.fairy-tail {}
+
+.container {}
+
+.fairy-tail__title {}
+
+.fairy-tail__inner {}
+
+.fairy-tail__slider {}
+
+.fairy-tail__item {}
+
+.fairy-tail__content {}
+
+.fairy-tail-container {}
+
+.fairy-tail-body {}
+
+.fairy-tail__text {}
+
+.fairy-tail__body-title {}
+
+.fairy-tail__list {}
