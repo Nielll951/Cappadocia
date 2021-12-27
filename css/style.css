@@ -320,6 +320,9 @@ body {
 
 .contacts__content {
    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
 }
 
 .contacts__info {}
@@ -363,6 +366,7 @@ body {
    line-height: 28px;
    font-family: 'RobotoCondensed-Regular';
    color: #000000;
+   margin-bottom: 50px;
 }
 
 .contacts__form-input {
@@ -370,12 +374,30 @@ body {
    display: block;
    margin-bottom: 20px;
    height: 50px;
+   width: 100%;
+   padding: 0 31px;
+   font-size: 18px;
+   font-weight: 300;
+   font-family: 'RobotoCondensed-Light';
+}
+
+.contacts__form-input::placeholder {
+   color: #fff;
 }
 
 .contacts__form-name {}
 
 .contacts__form-phone {}
 
-.contacts__form-btn {}
+.contacts__form-btn {
+   border: 1px solid #E2AB3F;
+   text-transform: uppercase;
+   font-family: 'RobotoCondensed-Light';
+   font-size: 24px;
+   line-height: 28px;
+   background-color: transparent;
+   padding: 11px 45px;
+   cursor: pointer;
+}
 
 .contacts__images {}
