@@ -144,12 +144,6 @@ body {
    margin-right: 85px;
 }
 
-.fairy-tail {}
-
-.container {}
-
-.fairy-tail__title {}
-
 .fairy-tail__inner {
    position: relative;
 }
@@ -175,10 +169,6 @@ body {
 .slick-next {
    right: 0;
 }
-
-.fairy-tail__item {}
-
-.fairy-tail__content {}
 
 .fairy-tail__container {
    max-width: 1230px;
@@ -213,10 +203,6 @@ body {
    font-family: 'RobotoCondensed-Regular';
 }
 
-.our-trip {}
-
-.page-section {}
-
 .our-trip__inner {
    position: relative;
 }
@@ -248,8 +234,6 @@ body {
    margin-left: 240px;
 }
 
-.title {}
-
 .our-trip__list {
    margin: 5px 0;
    font-size: 24px;
@@ -275,17 +259,9 @@ body {
    margin-left: auto;
 }
 
-.hotel {}
-
-.page-section {}
-
-.container {}
-
 .hotel__title span {
    margin-left: 120px;
 }
-
-.title {}
 
 .hotel__inner {
    display: flex;
@@ -294,8 +270,6 @@ body {
 .hotel__images {
    margin-right: 100px;
 }
-
-.hotel__content {}
 
 .hotel__text {
    margin-bottom: 20px;
@@ -311,3 +285,97 @@ body {
 .hotel__gallery a {
    margin-top: 50px;
 }
+
+.price {
+   background-image: url(../images/price-bg.png);
+   background-repeat: no-repeat;
+   background-position: center right 12%;
+}
+
+.price__inner {
+   display: flex;
+}
+
+.price__on {
+   margin-right: 70px;
+   width: 530px;
+}
+
+.price__on-title,
+.price__off-title {
+   margin-bottom: 50px;
+   font-size: 24px;
+   line-height: 28px;
+   font-family: 'RobotoCondensed-Regular';
+}
+
+.price__list-item {
+   margin-bottom: 20px;
+}
+
+.contacts__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.contacts__content {
+   text-align: center;
+}
+
+.contacts__info {}
+
+.contacts__price {
+   margin-left: 120px;
+}
+
+.contacts__date,
+.contacts__price {
+   font-family: 'balqis';
+   font-size: 96px;
+   color: #E2AB3F;
+   line-height: 100px;
+}
+
+.contacts__date span,
+.contacts__price span {
+   font-family: 'RobotoCondensed-LightItalic';
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+   display: block;
+   margin-top: -10px;
+   margin-left: 205px;
+}
+
+.contacts__date {
+   margin-bottom: 20px;
+}
+
+.contacts__price {}
+
+.contacts__form {
+   max-width: 383px;
+   margin: 0 auto;
+}
+
+.contacts__form-title {
+   font-size: 24px;
+   line-height: 28px;
+   font-family: 'RobotoCondensed-Regular';
+   color: #000000;
+}
+
+.contacts__form-input {
+   border: 1px solid #E2AB3F;
+   display: block;
+   margin-bottom: 20px;
+   height: 50px;
+}
+
+.contacts__form-name {}
+
+.contacts__form-phone {}
+
+.contacts__form-btn {}
+
+.contacts__images {}
