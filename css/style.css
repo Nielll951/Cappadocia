@@ -495,13 +495,38 @@ body {
       position: static;
    }
 
-   .fairy-tail__slider {
+   .fairy-tail__slider,
+   .our-trip__slider {
       width: 100%;
    }
 
    .fairy-tail__body {
       width: 100%;
       padding-left: 0;
+   }
+
+   .our-trip__list:last-of-type {
+      margin-bottom: 25px;
+   }
+
+   .our-trip__content {
+      width: 100%;
+      padding-right: 0;
+   }
+
+   .our-trip__body {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+   }
+
+   .our-trip__title {
+      flex: 0 0 100%;
+   }
+
+   .our-trip__list {
+      flex: 0 0 50%;
    }
 }
 
@@ -528,6 +553,17 @@ body {
       height: 25px;
       background-size: cover;
    }
+
+   .our-trip__content {
+      width: 100%;
+      padding-right: 0px;
+   }
+
+   .our-trip__slider-item img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+   }
 }
 
 @media (max-width: 600px) {
@@ -553,7 +589,8 @@ body {
       margin-right: 15px;
    }
 
-   .fairy-tail__item img {
+   .fairy-tail__item img,
+   .our-trip__slider-item img {
       height: 50vh;
       width: 100%;
       object-fit: cover;
@@ -571,6 +608,22 @@ body {
 
    .fairy-tail__title span {
       margin-left: 110px;
+   }
+
+   .our-trip__title span {
+      margin-left: 155px;
+   }
+
+   .our-trip__body {
+      flex-direction: column;
+   }
+
+   .our-trip__list {
+      flex: 0 0 100%;
+   }
+
+   .our-trip__list:last-of-type {
+      margin-bottom: 20px;
    }
 }
 
