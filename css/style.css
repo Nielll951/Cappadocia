@@ -483,6 +483,26 @@ body {
       margin-top: -50px;
       font-size: 50px;
    }
+
+   .hotel__gallery a:nth-of-type(odd) {
+      margin-right: 15px;
+   }
+
+   .hotel__images {
+      margin-right: 60px;
+      object-fit: cover;
+   }
+}
+
+@media (max-width: 1180px) {
+   .hotel__gallery a {
+      flex: 0 0 100%;
+      margin-top: 10px;
+   }
+
+   .hotel__gallery a img {
+      width: 100%;
+   }
 }
 
 @media (max-width: 991px) {
@@ -530,6 +550,18 @@ body {
    }
 }
 
+@media (max-width: 930px) {
+   .hotel__inner {
+      flex-wrap: wrap;
+   }
+
+   .hotel__images {
+      margin-right: 0;
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+   }
+}
+
 @media (max-width: 840px) {
 
    .header__top {
@@ -563,6 +595,10 @@ body {
       height: 100vh;
       width: 100%;
       object-fit: cover;
+   }
+
+   .hotel__images {
+      height: 75vh;
    }
 }
 
@@ -625,6 +661,10 @@ body {
    .our-trip__list:last-of-type {
       margin-bottom: 20px;
    }
+
+   .hotel__images {
+      height: 50vh;
+   }
 }
 
 @media (max-width: 370px) {
@@ -653,5 +693,9 @@ body {
 
    .fairy-tail__title span {
       margin-left: 90px;
+   }
+
+   .our-trip__list {
+      font-size: 20px;
    }
 }
