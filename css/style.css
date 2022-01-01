@@ -472,6 +472,12 @@ body {
    font-family: 'balqis';
 }
 
+@media (max-width: 1550px) {
+   .price {
+      background-image: none;
+   }
+}
+
 @media (max-width: 1240px) {
    .header__title {
       padding-top: 120px;
@@ -664,6 +670,27 @@ body {
 
    .hotel__images {
       height: 50vh;
+   }
+
+   .price__title span {
+      margin-left: 93px;
+   }
+
+   .price__inner {
+      flex-wrap: wrap;
+   }
+
+   .price__on {
+      margin-right: 0;
+      width: 100%;
+   }
+
+   .price__on-title,
+   .price__off-title {
+      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 28px;
+      font-family: RobotoCondensed-Regular;
    }
 }
 
